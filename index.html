@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>优艺ai</title>
+		<style>
+			body { margin: 0; }
+			canvas { display: block; }  
+        .ui-buttons {  
+            position: absolute;  
+            top: 10px;  
+            left: 10px;  
+            z-index: 100;  
+        }  
+        .ui-buttons button {  
+            margin: 5px;  
+            padding: 10px;  
+            font-size: 16px;  
+            cursor: pointer;  
+        }  
+		</style>
+	</head>
+	<body>
+		<div class="ui-buttons">  
+			<button id="translateBtn">移动</button>  
+			<button id="rotateBtn">旋转</button>  
+			<button id="scaleBtn">缩放</button>  
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
+		<script type="module" src="/main.js"></script>
+	</body>
+</html>
